@@ -29,6 +29,7 @@ body, html {
     padding: 20px;
     text-align: center;
     border-radius: 50px;
+    font-family: 'Quicksand', serif;
   }
 .content{
     list-style: none;
