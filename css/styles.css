@@ -58,7 +58,8 @@ h1{
     font-weight: bold;
     border: 3px solid white;
     position: absolute;
-    left: 50%;
+    left: 50pc;
+    transform: translate(-50%, 0%);
     transform: translate(-50%, 0%);
     z-index: 2;
     width: 80%;
@@ -118,4 +119,24 @@ svg{
     padding: 50px;
     padding-left: 30%;
     padding-right: 30%; 
+}
+.form{
+    border: 2px solid white;
+    z-index: 2;
+    position: absolute;
+    color: white;
+    margin-top: 45%;
+    padding: 20px;
+    text-align: center;
+    transform: translate(-50%, 0%);
+    left: 50pc;
+
+}
+input[type=text]{
+    width: 100%;
+    padding: 10px 30px;
+    margin: 20px 0px;
+    display: block;
+    border-radius: 16px;
+    box-sizing: border-box;
 }
