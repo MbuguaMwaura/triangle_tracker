@@ -80,6 +80,7 @@ svg{
     color: white;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 10%;
     font-family: 'Quicksand', serif;
     z-index: 2;
     position: relative;
@@ -101,3 +102,4 @@ svg{
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
+}
