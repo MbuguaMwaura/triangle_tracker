@@ -130,13 +130,25 @@ svg{
     text-align: center;
     transform: translate(-50%, 0%);
     left: 50pc;
-
+    font-family: 'Quicksand', serif;
 }
 input[type=text]{
     width: 100%;
     padding: 10px 30px;
-    margin: 20px 0px;
+    margin:   12px 0px;
     display: block;
     border-radius: 16px;
     box-sizing: border-box;
+}
+.click{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 16px;
+}
+.click:hover{
+    background-color: #3CA65C;
+    color: white;
+    transition: 400ms;
+    font-size: 20px;
 }
