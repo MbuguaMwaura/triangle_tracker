@@ -1,10 +1,14 @@
-var length1 = [parseFloat(prompt('Input length1'))]
-  var length2 = [parseFloat(prompt('Input length2'))]
-  var length3 = [parseFloat(prompt('Input length3'))]
+var length1 = document.getElementById("length1").value;
+var length2 = document.getElementById("length2").value;
+var length3 = document.getElementById("length3").value;
 
- var ab = length1.concat(length2);
+var x = parseFloat(length1);
+var y = parseFloat(length2);
+var z = parseFloat(length3);
 
- var abc = ab.concat(length3) ;
+ var ab = x.concat(y);
+
+ var abc = ab.concat(z) ;
 
 var sorted = abc.sort(function (d, e) {
 return d - e;
