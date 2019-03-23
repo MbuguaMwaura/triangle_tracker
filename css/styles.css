@@ -38,7 +38,7 @@ body, html {
     margin-bottom: 4%;
 }
 .content a{
-    border: 2px solid white;s
+    border: 2px solid white;
     text-align: center;
     padding: 10px;
     color: white;
@@ -68,5 +68,36 @@ h1{
     font-family: 'Quicksand', serif;
 }
 svg{
-    margin: 20%;
+    margin-top: 10%;
+    margin-left: 5%;
+    z-index: 2;
+    position: relative;
 }
+.text{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    text-align: center;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Quicksand', serif;
+    z-index: 2;
+    position: relative;
+    padding: 50px;
+    padding-left: 30%;
+    padding-right: 30%; 
+
+}
+
+.backimage1{
+    background-image: url("/home/mbugua/Documents/triangletracker/images/back.jpg");
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    filter: grayscale(3px);
+    -webkit-filter: grayscale(3px);     
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;

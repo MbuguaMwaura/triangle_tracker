@@ -11,6 +11,7 @@
 </head>
 
     <body>
+                <div class="backimage1"></div>
             <div class="header2">
                     <h1 >TRIANGLE TRACKER</h1>
             
@@ -25,9 +26,29 @@
    
                 </div>
 
-                <svg height="210" width="500">
-                        <polygon points="200,10 250,190 160,210" 
-                        style="fill:none;stroke:white;stroke-width:3" />
-                </svg>
-    </body>
-</html>
+                <div class="triangles">
+                        <svg class="isosceles" height="500" width="500">
+                                <polygon points="250,60 100,400 400,400" class="triangle" 
+                                style="fill:none;stroke:white;stroke-width:3" />
+                        </svg>
+
+                        <svg class="scalene" height="500" width="500">
+                                <polygon points="250,60 100,400 300,400" class="triangle"
+                                style="fill:none;stroke:white;stroke-width:3" />
+                        </svg>
+
+                        <svg class="equilateral" height="500" width="500">
+                                <polygon points="250,100 100,400 400,400" class="triangle"
+                                style="fill:none;stroke:white;stroke-width:3"  />
+                        </svg>
+                </div>
+           <div class="text">
+                <h2>Triangles</h2>
+                <p>A triangle is a polygon with three edges and three vertices. It is one of the basic shapes in geometry.
+                        This web application will aid in determining what type of triangle a user is working with based on the 
+                        lengths of the three sides.
+                </p>
+        </div>
+
+        </body>
+        </html> 
