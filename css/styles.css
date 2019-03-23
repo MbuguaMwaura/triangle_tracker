@@ -103,3 +103,19 @@ svg{
     background-size: cover;
     position: fixed;
 }
+.para2{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    text-align: center;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-top: 20%;
+    font-family: 'Quicksand', serif;
+    z-index: 2;
+    position: absolute;
+    padding: 50px;
+    padding-left: 30%;
+    padding-right: 30%; 
+}
