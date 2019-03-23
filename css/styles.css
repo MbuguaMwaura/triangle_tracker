@@ -94,8 +94,8 @@ svg{
     background-image: url("/home/mbugua/Documents/triangletracker/images/back.jpg");
     filter: blur(6px);
     -webkit-filter: blur(6px);
-    filter: grayscale(3px);
-    -webkit-filter: grayscale(3px);     
+    filter: grayscale(75%);
+    -webkit-filter: grayscale(75%);     
     height: 100%;
     width: 100%;
     background-position: center;
