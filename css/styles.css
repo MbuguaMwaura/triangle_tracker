@@ -48,12 +48,16 @@ body, html {
     margin: 2%;
     border-radius: 50px;
 }
+.content a:hover{
+    border-color: #3CA65C;
+    transition: 400ms;
+}
 h1{
     margin-bottom: 4%;
 }
 .header2{
     background-color: black;
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    background-color: rgba(0,0,0, 0.4); 
     color: white;
     font-weight: bold;
     border: 3px solid white;
