@@ -52,6 +52,9 @@ body, html {
     border-color: #3CA65C;
     transition: 400ms;
 }
+.content a:active{
+    color: #3CA65C;
+}
 h1{
     margin-bottom: 4%;
 }
