@@ -50,7 +50,8 @@ body, html {
 }
 .content a:hover{
     border-color: #3CA65C;
-    transition: 400ms;
+    transition: 400ms ease-out;
+
 }
 .content a:active{
     color: #3CA65C;
@@ -113,7 +114,7 @@ svg{
 .para2{
     border-top: 2px solid white;
     border-bottom: 2px solid white;
-    text-align: center;
+    text-align: left;
     color: white;
     margin-left: 10%;
     margin-right: 10%;
@@ -125,6 +126,9 @@ svg{
     padding: 50px;
     padding-left: 30%;
     padding-right: 30%; 
+}
+.para2 h2{
+    text-align: center;
 }
 .form{
     border: 2px solid white;
