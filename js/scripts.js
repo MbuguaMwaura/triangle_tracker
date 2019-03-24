@@ -34,3 +34,8 @@ else if(a === b && b === c && a > 0 && b > 0 && c > 0){
   document.getElementById("output").innerHTML = "Scalene Triangle";;
 }else { document.getElementById("output").innerHTML = "Invalid Measurements";};
 }
+
+function reset(){
+  document.getElementById("myform").reset();
+  document.getElementById("output").innerHTML = "Try other figures";
+}

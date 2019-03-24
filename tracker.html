@@ -35,7 +35,7 @@
             <script src="js/scripts.js"></script>
 
             <div class="form">
-                <form action="tracker">
+                <form id="myform" action="tracker">
                     <label for="length1">Length One</label>
                     <input type="text" id="length1" name="lenghtone" placeholder="Input your first length...">
                     <br>
@@ -44,10 +44,13 @@
                     <br>
                     <label for="length3">Length Three</label>
                     <input type="text" id="length3" name="lenghtthree" placeholder="Input your third length...">
+
+                    <p id="output"></p>
                 </form>
 
                 <button class="click" type="button" onclick="tracker()">SUBMIT</button>
-                <p id="output"></p>
+                <button class="click" type="button" onclick="reset()">RESET</button>
+                
                 
                 
             
