@@ -53,6 +53,7 @@ body, html {
     transition: 400ms ease-out;
 
 }
+
 .content a:active{
     color: #3CA65C;
 }
@@ -97,9 +98,14 @@ svg{
     padding: 50px;
     padding-left: 30%;
     padding-right: 30%; 
-
 }
-
+.text:hover{
+    border-color: #3CA65C;
+    transition: 400ms;
+    font-size: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
 .backimage1{
     background-image: url("/home/mbugua/Documents/triangletracker/images/back.jpg");
     filter: blur(6px);
@@ -128,7 +134,7 @@ svg{
     padding-right: 30%; 
 }
 .para2 h2{
-    text-align: center;
+    text-align: center;                 
 }
 .form{
     border: 2px solid white;
