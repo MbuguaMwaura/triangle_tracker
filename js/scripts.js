@@ -24,13 +24,13 @@ var lengthab = a + b;
 
 
 if(lengthab < c){
-  	alert("ERROR! Not a triangle");
+  document.getElementById("output").innerHTML = "Error, not a triangle";
   }
 else if(a === b && b === c && a > 0 && b > 0 && c > 0){
-  alert('Equilateral Triangle');
+  document.getElementById("output").innerHTML = "Equilateral Triangle.";
 }else if(a === b && b !== c || a !== b && b === c && a > 0 && b > 0 && c > 0){
-  alert('Isoceles Triangle');
+  document.getElementById("output").innerHTML = "Isosceles Triangle";
 }else if(a !== b && b!== c && (Number.isInteger(a) === true || Number.isInteger(b) === true || Number.isInteger(c) === true) && a > 0 && b > 0 && c > 0){
-  alert('Scalene Triangle');
-}else { alert ("Invalid measurements. Kindly re-evaluate your figures.")};
+  document.getElementById("output").innerHTML = "Scalene Triangle";;
+}else { document.getElementById("output").innerHTML = "Invalid Measurements";};
 }
