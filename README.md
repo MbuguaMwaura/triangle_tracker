@@ -15,15 +15,15 @@ their lengths and receives an output of what the triangle is.}
 {Contact Mbugua @ 0798549950
 Email : mbuguamwaura9@gmail.com}
 ## Behaviour Driven Development (BDD)
-|Behaviour my program should handle	           |    Input Example	                 |       Output Example   
-|----------------------------------------------|:-----------------------------------:|----------------------------:        
-|3 valid lengths	                           |     2,2,2	                         |       Equilateral Triangle
-                                               | 	1,2,3	                         |        Scalene Triangle
-	                                           |     1,1,2	                         |      Isosceles Triangle
-|3 valid lengths that can not form a triangle  |	    2,2,6	                     |       Error, not a triangle
-|Invalid measurements	                       |     a,f,w	                         |       Invalid measurements
-|Lengths inclusive of a zero	               |     1,2,0	                         |       Error, not a triangle
-|Lengths inclusive of a negative number        | 	-1,4,5                           |   	Error, not a triangle
+|Behaviour my program should handle	           |    Input Example	                 |       Output Example         |
+|----------------------------------------------|:-----------------------------------:|-----------------------------:|       
+|3 valid lengths	                           |     2,2,2	                         |       Equilateral Triangle   |    
+                                               | 	1,2,3	                         |        Scalene Triangle      |
+	                                           |     1,1,2	                         |      Isosceles Triangle      |
+|3 valid lengths that can not form a triangle  |	    2,2,6	                     |       Error, not a triangle  |
+|Invalid measurements	                       |     a,f,w	                         |       Invalid measurements   |
+|Lengths inclusive of a zero	               |     1,2,0	                         |       Error, not a triangle  |
+|Lengths inclusive of a negative number        | 	-1,4,5                           |   	Error, not a triangle   |
 ### License
 *{MIT License
 
