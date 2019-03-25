@@ -67,7 +67,7 @@ h1{
     font-weight: bold;
     border: 3px solid white;
     position: absolute;
-    left: 50pc;
+    left: 50%;
     transform: translate(-50%, 0%);
     z-index: 2;
     width: 80%;
@@ -75,6 +75,7 @@ h1{
     text-align: center;
     border-radius: 50px;
     font-family: 'Quicksand', serif;
+    margin-bottom: 10%;
 }
 svg{
     z-index: 2;
@@ -89,15 +90,16 @@ svg{
     border-bottom: 2px solid white;
     text-align: center;
     color: white;
-    margin-left: 10%;
-    margin-right: 10%;
     margin-bottom: 10%;
     font-family: 'Quicksand', serif;
     z-index: 2;
     position: relative;
     padding: 50px;
-    padding-left: 30%;
-    padding-right: 30%; 
+    padding-left: 20%;
+    padding-right: 20%; 
+    left: 50%;
+    transform: translate(-50%, 0%);
+    
 }
 .text:hover{
     border-color: #3CA65C;
@@ -122,16 +124,18 @@ svg{
     border-bottom: 2px solid white;
     text-align: left;
     color: white;
-    margin-left: 10%;
-    margin-right: 10%;
     margin-bottom: 10%;
     margin-top: 20%;
     font-family: 'Quicksand', serif;
     z-index: 2;
     position: absolute;
-    padding: 50px;
-    padding-left: 30%;
-    padding-right: 30%; 
+    padding: 0px;
+    padding-left: 0%;
+    padding-right: 0%; 
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 80%;
+
 }
 .para2 h2{
     text-align: center;                 
@@ -141,14 +145,14 @@ svg{
     z-index: 2;
     position: absolute;
     color: white;
-    margin-top: 45%;
+    margin-top: 40%;
     margin-bottom: 15%;
     padding: 20px;
     text-align: center;
-    transform: translate(-50%, 0%);
-    left: 50pc;
     font-family: 'Quicksand', serif;
     background-color: rgba(0,0,0, 0.4); 
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
 input[type=text]{
     width: 100%;
@@ -169,4 +173,20 @@ input[type=text]{
     color: white;
     transition: 400ms;
     font-size: 20px; 
+}
+
+@media screen and (max-width:768px){
+    .form{
+        top: 25%;
+    }
+    .para2{
+        top: 10%;
+    }
+    svg{
+       height: 0px;
+       width: 0px;
+    }
+    .text{
+        top:20%;
+    }
 }
