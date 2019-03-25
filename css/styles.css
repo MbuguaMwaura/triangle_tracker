@@ -1,9 +1,10 @@
-body, html {
+body,
+html {
     height: 100%;
     background-color: black;
- }
-  
-.backimage{
+}
+
+.backimage {
     background-image: url("../images/back.jpg");
     filter: blur(6px);
     -webkit-filter: blur(6px);
@@ -14,9 +15,10 @@ body, html {
     background-size: cover;
     position: fixed;
 }
-.header{
+
+.header {
     background-color: black;
-    background-color: rgba(0,0,0, 0.4); 
+    background-color: rgba(0, 0, 0, 0.4);
     color: white;
     font-weight: bold;
     border: 3px solid white;
@@ -30,14 +32,16 @@ body, html {
     text-align: center;
     border-radius: 50px;
     font-family: 'Quicksand', serif;
-  }
-.content{
+}
+
+.content {
     list-style: none;
     color: white;
     text-decoration: none;
     margin-bottom: 4%;
 }
-.content a{
+
+.content a {
     border: 2px solid white;
     text-align: center;
     padding: 10px;
@@ -48,21 +52,24 @@ body, html {
     margin: 2%;
     border-radius: 50px;
 }
-.content a:hover{
+
+.content a:hover {
     border-color: #3CA65C;
     transition: 400ms ease-out;
 
 }
 
-.content a:active{
+.content a:active {
     color: #3CA65C;
 }
-h1{
+
+h1 {
     margin-bottom: 4%;
 }
-.header2{
+
+.header2 {
     background-color: black;
-    background-color: rgba(0,0,0, 0.4); 
+    background-color: rgba(0, 0, 0, 0.4);
     color: white;
     font-weight: bold;
     border: 3px solid white;
@@ -77,15 +84,18 @@ h1{
     font-family: 'Quicksand', serif;
     margin-bottom: 10%;
 }
-svg{
+
+svg {
     z-index: 2;
     position: relative;
     margin-top: 10%;
 }
-.triangles{
-    width:100%;
+
+.triangles {
+    width: 100%;
 }
-.text{
+
+.text {
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     text-align: center;
@@ -96,22 +106,24 @@ svg{
     position: relative;
     padding: 50px;
     padding-left: 20%;
-    padding-right: 20%; 
+    padding-right: 20%;
     left: 50%;
     transform: translate(-50%, 0%);
-    
+
 }
-.text:hover{
+
+.text:hover {
     border-color: #3CA65C;
     transition: 400ms;
     font-size: 20px;
     padding-left: 25%;
     padding-right: 25%;
 }
-.backimage1{
+
+.backimage1 {
     background-image: url("../images/back.jpg");
     filter: blur(6px);
-    -webkit-filter: blur(6px);    
+    -webkit-filter: blur(6px);
     height: 100%;
     width: 100%;
     background-position: center;
@@ -119,7 +131,8 @@ svg{
     background-size: cover;
     position: fixed;
 }
-.para2{
+
+.para2 {
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     text-align: left;
@@ -131,16 +144,18 @@ svg{
     position: absolute;
     padding: 0px;
     padding-left: 0%;
-    padding-right: 0%; 
+    padding-right: 0%;
     left: 50%;
     transform: translate(-50%, 0%);
     width: 80%;
 
 }
-.para2 h2{
-    text-align: center;                 
+
+.para2 h2 {
+    text-align: center;
 }
-.form{
+
+.form {
     border: 2px solid white;
     z-index: 2;
     position: absolute;
@@ -150,43 +165,49 @@ svg{
     padding: 20px;
     text-align: center;
     font-family: 'Quicksand', serif;
-    background-color: rgba(0,0,0, 0.4); 
+    background-color: rgba(0, 0, 0, 0.4);
     left: 50%;
     transform: translate(-50%, 0%);
 }
-input[type=text]{
+
+input[type=text] {
     width: 100%;
     padding: 10px 30px;
-    margin:   12px 0px;
+    margin: 12px 0px;
     display: block;
     border-radius: 16px;
     box-sizing: border-box;
 }
-.click{
+
+.click {
     width: 100px;
     height: 40px;
     margin-top: 10px;
     border-radius: 16px;
 }
-.click:hover{
+
+.click:hover {
     background-color: #3CA65C;
     color: white;
     transition: 400ms;
-    font-size: 20px; 
+    font-size: 20px;
 }
 
-@media screen and (max-width:768px){
-    .form{
+@media screen and (max-width:768px) {
+    .form {
+        top: 40%;
+    }
+
+    .para2 {
         top: 25%;
     }
-    .para2{
-        top: 10%;
+
+    svg {
+        height: 0px;
+        width: 0px;
     }
-    svg{
-       height: 0px;
-       width: 0px;
-    }
-    .text{
-        top:20%;
+
+    .text {
+        top: 30%;
     }
 }

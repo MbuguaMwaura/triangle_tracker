@@ -1,65 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Triangle Tracker</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" 
-    type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
 </head>
 
-    <body>
-                <div class="backimage1"></div>
-            <div class="header2">
-                    <h1 >TRIANGLE TRACKER</h1>
-            
-                
-                    <div class="content">
-                        
-                            <a href="index.html">Home</a>
-                            <a href="about.html">About</a>
-                            <a href="tracker.html">Tracker</a>
-            
-                    </div>
-   
-                </div>
-            <div class="para2">
-                <h2>Instructions</h2>
-                <p><ol><li>Type the lengths if the triangle to be tracked in the form below,</li>
-                <li>Press the submit button.</li>
-                <li>The program will take in your lengths and output the triangle that the legths will form.</li></ol></p>
-            </div>
-            
-            <script src="js/scripts.js"></script>
+<body>
+    <div class="backimage1"></div>
+    <div class="header2">
+        <h1>TRIANGLE TRACKER</h1>
 
-            <div class="form">
-                <form id="myform" action="tracker">
-                    <label for="length1">Length One</label>
-                    <input type="text" id="length1" name="lenghtone" placeholder="Input your first length...">
-                    <br>
-                    <label for="length2">Length Two</label>
-                    <input type="text" id="length2" name="lenghttwo" placeholder="Input your second length...">
-                    <br>
-                    <label for="length3">Length Three</label>
-                    <input type="text" id="length3" name="lenghtthree" placeholder="Input your third length...">
 
-                    <p id="output"></p>
-                </form>
+        <div class="content">
 
-                <button class="click" type="button" onclick="tracker()">SUBMIT</button>
-                <button class="click" type="button" onclick="reset()">RESET</button>
-                
-                
-                
-            
-            </div>
-          
-            
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="tracker.html">Tracker</a>
+
         </div>
 
+    </div>
+    <div class="para2">
+        <h2>Instructions</h2>
+        <p>
+            <ol>
+                <li>Type the lengths if the triangle to be tracked in the form below,</li>
+                <li>Press the submit button.</li>
+                <li>The program will take in your lengths and output the triangle that the legths will form.</li>
+            </ol>
+        </p>
+    </div>
 
-        
-        </body>
-        </html>         
+    <script src="js/scripts.js"></script>
+
+    <div class="form">
+        <form id="myform" action="tracker">
+            <label for="length1">Length One</label>
+            <input type="text" id="length1" name="lenghtone" placeholder="Input your first length...">
+            <br>
+            <label for="length2">Length Two</label>
+            <input type="text" id="length2" name="lenghttwo" placeholder="Input your second length...">
+            <br>
+            <label for="length3">Length Three</label>
+            <input type="text" id="length3" name="lenghtthree" placeholder="Input your third length...">
+
+            <p id="output"></p>
+        </form>
+
+        <button class="click" type="button" onclick="tracker()">SUBMIT</button>
+        <button class="click" type="button" onclick="reset()">RESET</button>
+
+
+
+
+    </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
