@@ -1,4 +1,4 @@
-# {My portfolio website link : https://mbuguamwaura.github.io/triangle_tracker/}
+# My portfolio website link : https://mbuguamwaura.github.io/triangle_tracker/
 #### {Website containing Mbugua Mwaura's Triangle Tracker}, {Version 1.0 }
 #### By **{Mbugua Mwaura}**
 ## Description
